@@ -1,0 +1,15 @@
+.link-div {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .lnk {
+    margin: 5px 0px;
+    color: black;
+    text-decoration: none;
+    &:hover {
+      font-weight: bold;
+    }
+  }
+}
